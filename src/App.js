@@ -47,7 +47,7 @@ function App() {
 }
 
 export default withLDProvider({
-  clientSideID: '656eb3fa552c3c10556c5ecf',
+  clientSideID: '<insert client side id here>',
   context: {
     kind: "user",
     key: "anonymous"
