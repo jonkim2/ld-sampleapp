@@ -1,0 +1,24 @@
+.ad-banner {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2; 
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    overflow: hidden; 
+    box-shadow: 0px -2px 5px rgba(0,0,0,0.2);
+}
+
+.scrolling-text {
+    white-space: nowrap; 
+    display: block;
+    animation: scrollText 10s linear infinite; 
+}
+
+
+@keyframes scrollText {
+    0% { transform: translateX(100%); } 
+    100% { transform: translateX(-100%); } 
+}

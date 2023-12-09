@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.app-logo {
+  height: auto;
+  width: 200px;
+  pointer-events: none;
+  margin-top: 10px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 2vmin);
+  color: black;
+}
+
+.App-header div {
+  font-size: calc(10px + 3vmin); 
+}
+
+.App-header h1 {
+  font-size: calc(1px + 2vmin); 
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.login-box-container {
+  margin-top: 0px;
+  margin-bottom: 50px; 
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  width: auto; 
+  max-width: 400px; 
+  margin-left: auto; 
+  margin-right: auto;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.login-box-container input {
+  width: 90%; 
+  padding: 8px 10px; 
+  margin: 5px 0; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+.login-box-container button {
+  padding: 10px 15px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.login-box-container button:hover {
+  background-color: #45a049; 
+}
+
